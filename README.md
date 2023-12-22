@@ -75,7 +75,7 @@ Interest is measured with the client's messages. For simplicity we check when wa
 - messageDayScore (10 pts): Perfect score if latest message is from today or yesterday, 0 points at 90 days or later.
 - messageQScore (10 pts): Perfect score if client has sent 8 or more messages, showing interest in acquiring a property.
 
-### Trustworth
+### Trustworth (20 pts)
 A client that doesn't pay is a bad client so we have to check he's debts. Here we check for two things, his oldest debt and if the total debt amount is payable in the short term by him.
 - debtDayScore (10 pts): Perfect score if none of the debts are more than 1 year old; 0 pts if a debt is 5 was due 5 years ago.
 - debtScore (10 pts): Perfect score it the client can pay his debts with 2 or less salaries, payable in the short term; 0 pts if the debt is greater than 12 times his salary.
