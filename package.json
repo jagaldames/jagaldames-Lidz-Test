@@ -1,0 +1,22 @@
+{
+  "name": "koa_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@prisma/client": "^5.7.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^11.0.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.7.1"
+  }
+}
